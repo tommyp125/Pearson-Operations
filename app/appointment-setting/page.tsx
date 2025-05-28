@@ -4,8 +4,8 @@ import { motion } from "framer-motion"
 import { useInView } from "react-intersection-observer"
 import { Calendar, Clock, Bell, Users, ArrowRight, CheckCircle, Smartphone, Zap } from "lucide-react"
 import Link from "next/link"
-import { Button } from "@/components/ui/button"
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+import { Button } from "../components/ui/button"
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "../components/ui/card"
 
 const features = [
   {
